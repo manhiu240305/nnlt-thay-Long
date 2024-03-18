@@ -1,0 +1,65 @@
+//Bai 1:
+#incluce <iostream>
+using namespace std;
+int main()
+{
+   int a, b  
+  count << " Nhap gia trị cua a: " << endl;
+  cin >> a;
+  cout << " Nhap gia tri cua b: " << endl;
+  cin >> b;
+  if (a % b == 0) { 
+      cout <<"a chia het cho b " << endl;
+  } else {
+      cout << " a khong chia het cho b " << endl;
+
+
+  return 0;
+}
+
+
+
+
+//Bai 2:
+#incluce <iostream>
+using namespace std;
+int main()
+{
+   int a, b  
+  count << " Nguoi thu nhat: " << endl;
+  cin >> a;
+  cout << " Nguoi thu hai: " << endl;
+  cin >> b;
+  if ((a == 2 && b == 0) || (a == 0 && b == 5) || (a == 5 && b == 2)) {
+      cout << "b win" <<endl;
+  } else if ((b == 2 && a == 0) || (b == 0 && a == 5) || (b == 5 && a == 2)) {
+      cout << "a win" << endl;
+  } else {
+      cout <<"Nhap du lieu sai" << endl;
+  }
+
+  return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
